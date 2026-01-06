@@ -16,7 +16,6 @@ from rag_utils import chat_wiht_pdf
 
 
 # import os
-# os.environ['GOOGLE_API_KEY'] = "AIzaSyC7HtoFLbuXENidxBBbrcsWiOd_SCPcf8g"
 # os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 # embedding_function = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
@@ -98,3 +97,4 @@ def send_ans(item : Query):
     print(message)
     
     return message
+
